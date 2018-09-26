@@ -145,6 +145,9 @@ namespace Unity.Entities
                 for (var match = firstMatchingArchetype; match != null; match = match->Next)
                     length += match->Archetype->EntityCount;
             else
+                //  Tsai 2018-9-26 15:09:49
+                //  Content: 从这段来看chunk是以archetype作为分类的，类似deque。ChunkListNode是一个原型的链表，每个节点上又是一个链表，这个链表的节点是真正的entity。
+                //  但是从和小亮的沟通中，发现更应该是所有相同的component在内存中连续的。这个就和以archetype为单位的连续有冲突了。 
                 for (var match = firstMatchingArchetype; match != null; match = match->Next)
                 {
                     if (match->Archetype->EntityCount <= 0)

@@ -263,6 +263,8 @@ namespace Unity.Entities
                 return;
 
             ulong gchandle;
+            //  Tsai 2018-9-26 14:58:11
+            //  Content:  从函数名看是固定住对象的内存位置，因为.NET中在GC时会移动对象的内存地址。
             var pinnedSystemPtr = (byte*)UnsafeUtility.PinGCObjectAndGetAddress(this, out gchandle);
 
             try

@@ -88,10 +88,14 @@ namespace Unity.Entities
 
         public unsafe void UpdateInjection(byte* systemPtr)
         {
+            //  Tsai 2018-9-26 14:57:54
+            //  Content: struct指针 = system地址 + 字段的偏移
             var groupStructPtr = systemPtr + m_GroupFieldOffset;
 
             int length;
             ComponentChunkIterator iterator;
+            //  Tsai 2018-9-26 14:58:50
+            //  Content: 获得迭代器
             m_EntityGroup.GetComponentChunkIterator(out length, out iterator);
 
             for (var i = 0; i != m_ComponentDataInjections.Length; i++)

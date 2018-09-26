@@ -104,7 +104,11 @@ namespace Unity.Entities
 
         internal void GetComponentChunkIterator(out int outLength, out ComponentChunkIterator outIterator)
         {
+            //  Tsai 2018-9-26 15:02:06
+            //  Content: 
             outLength = ComponentChunkIterator.CalculateLength(m_GroupData->FirstMatchingArchetype, ref m_Filter);
+            //  Tsai 2018-9-26 15:01:35
+            //  Content: 这么2的么，直接是用archetype创建一个迭代器
             outIterator = new ComponentChunkIterator(m_GroupData->FirstMatchingArchetype,
                 m_EntityDataManager->GlobalSystemVersion, ref m_Filter);
         }
