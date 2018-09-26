@@ -310,9 +310,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll</HintPath>
     </Reference>
@@ -324,6 +321,9 @@
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

@@ -53,40 +53,46 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ArchetypeChunkArrayTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\BufferTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentGroupArrayTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentGroupDelta.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentOrderVersionTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentSystemInjectionTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentSystemStartStopRunningTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ComponentSystemTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\CreateAndDestroyTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\DisableComponentTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\ECSTestsFixture.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\EntityCommandBufferTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\EntityManagerBugTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\EntityManagerTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\EntityRemapUtilityTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\EntityTransactionTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\FastEqualityTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\IJobProcessComponentDataTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\InjectComponentGroupTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\IterationTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\JobComponentSystemDependencyTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\JobSafetyTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\MoveEntitiesFrom.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\NativeArraySharedValuesTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\SafetyTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\SerializeTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\SharedComponentDataTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\SystemStateComponentTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\TestComponents.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\TypeManagerTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\Types\ComponentTypeTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\UpdateOrderOptimizerTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\WorldDebuggingToolsTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Tests\WorldTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ArchetypeChunkArrayTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\BufferTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ChangeVersionTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentGroupArrayTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentGroupDelta.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentOrderVersionTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentSystemInjectionTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentSystemStartStopRunningTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ComponentSystemTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\CreateAndDestroyTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\DisableComponentTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ECBChainPriorityQueueTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\ECSTestsFixture.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\EntityCommandBufferTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\EntityManagerBugTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\EntityManagerTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\EntityRemapUtilityTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\EntityTransactionTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\FastEqualityTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\IJobProcessComponentDataCombinationsTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\IJobProcessComponentDataTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\IJobProcessComponentInjection.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\InjectComponentGroupTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\IterationTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\JobComponentSystemDependencyTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\JobSafetyTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\MoveEntitiesFrom.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\NativeArraySharedValuesTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\PrefabComponentTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\SafetyTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\SerializeTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\SharedComponentDataTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\SizeTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\SystemStateComponentTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\TestComponents.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\TypeManagerTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\Types\ComponentTypeTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\UpdateOrderOptimizerTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\WorldDebuggingToolsTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Tests\WorldTests.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -330,9 +336,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll</HintPath>
     </Reference>
@@ -344,6 +347,9 @@
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

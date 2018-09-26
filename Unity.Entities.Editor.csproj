@@ -53,27 +53,29 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\AssemblyInfo.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\ComponentGroupGUI.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\ComponentGroupListView.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\ComponentTypeChooser.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\ComponentTypeFilterUI.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\ComponentTypeListView.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityArrayListAdapter.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityDebugger.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityDebuggerStyles.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityIMGUIVisitor.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityListQuery.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntityListView.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntitySelectionProxy.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\EntitySelectionProxyEditor.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\SystemListView.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\EntityDebugger\WorldPopup.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\ExtraTypesProvider.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\GameObjectEntityEditor.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\GUIHelpers.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\GUIStyleAsset.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities.Editor\SystemInclusionList.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\AssemblyInfo.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\ComponentDataWrapperBaseEditor.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\ComponentGroupGUI.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\ComponentGroupListView.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\ComponentTypeChooser.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\ComponentTypeFilterUI.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\ComponentTypeListView.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityArrayListAdapter.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityDebugger.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityDebuggerStyles.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityIMGUIVisitor.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityListQuery.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntityListView.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntitySelectionProxy.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\EntitySelectionProxyEditor.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\SystemListView.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\EntityDebugger\WorldPopup.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\ExtraTypesProvider.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\GameObjectEntityEditor.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\GUIHelpers.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\GUIStyleAsset.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\SystemInclusionList.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities.Editor\WrappedComponentDataDrawer.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -308,9 +310,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll</HintPath>
     </Reference>
@@ -322,6 +321,9 @@
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

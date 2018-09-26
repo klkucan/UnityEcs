@@ -53,22 +53,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeArraySOATests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeArraySortTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeContainerTests_ValidateTypes.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeContainerTests_ValidateTypes_JobDebugger.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeContainerTests_ValidateTypesFixture.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeHashMapTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeHashMapTests_InJobs.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeHashMapTests_NativeChecks.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeHashMapTestsFixture.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeListTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeListTests_JobDebugger.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeMultiHashMapTests_InJobs.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeMultiHashMapTests_JobDebugger.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeMultiHashMapTestsFixture.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeQueueTests.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.3\Unity.Collections.Tests\NativeQueueTests_InJobs.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeArraySOATests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeArraySortTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeContainerTests_ValidateTypes.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeContainerTests_ValidateTypes_JobDebugger.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeContainerTests_ValidateTypesFixture.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeHashMapTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeHashMapTests_InJobs.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeHashMapTests_NativeChecks.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeHashMapTestsFixture.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeListTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeListTests_JobDebugger.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeMultiHashMapTests_InJobs.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeMultiHashMapTests_JobDebugger.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeMultiHashMapTestsFixture.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeQueueTests.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.collections@0.0.9-preview.6\Unity.Collections.Tests\NativeQueueTests_InJobs.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -312,9 +312,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll</HintPath>
     </Reference>
@@ -326,6 +323,9 @@
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

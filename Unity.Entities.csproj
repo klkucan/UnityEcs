@@ -53,63 +53,63 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\AlwaysUpdateSystemAttribute.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ArchetypeManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\AssemblyInfo.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\BinarySerialization.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ChangeVersionUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ChunkAllocator.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ChunkDataUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ChunkListMap.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ComponentJobManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ComponentSystem.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\CopyUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\DisallowRefReturnCrossingThisAttribute.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\EndFrameBarrier.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\EntityCommandBuffer.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\EntityDataManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\EntityManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\EntityRemapUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ExclusiveEntityTransaction.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\HashUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\IComponentData.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\IJobProcessComponentData.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\ComponentSystemInjection.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\InjectAttribute.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\InjectComponentFromEntity.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\InjectComponentGroup.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\InjectionData.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\InjectionHook.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\World.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Injection\WorldDebuggingTools.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ArchetypeChunkArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\BufferArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\BufferDataFromEntity.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ComponentChunkIterator.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ComponentDataArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ComponentDataFromEntity.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ComponentGroup.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\ComponentGroupArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\DynamicBuffer.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\EntityArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\EntityGroupManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Iterators\SharedComponentDataArray.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\SceneViewWorldPositionAttribute.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ScriptBehaviourManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\ScriptBehaviourUpdateOrder.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\SerializeUtility.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\SharedComponentManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\SortingUtilities.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Stubs\Unity.Assertions\Assert.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Stubs\Unity\Debug.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Stubs\Unity\ProfilerMarker.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\BufferHeader.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\CalculateReaderWriterDependency.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\ComponentType.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\FastEquality.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\TypeManager.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\Types\VoidSystemComponent.cs" />
-    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.11\Unity.Entities\UnsafeLinkedListNode.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\AlwaysUpdateSystemAttribute.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ArchetypeManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\AssemblyInfo.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\BinarySerialization.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ChangeVersionUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ChunkAllocator.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ChunkDataUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ChunkListMap.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ComponentJobManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ComponentSystem.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\CopyUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\DisallowRefReturnCrossingThisAttribute.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\EndFrameBarrier.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\EntityCommandBuffer.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\EntityDataManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\EntityManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\EntityRemapUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ExclusiveEntityTransaction.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\HashUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\IComponentData.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\IJobProcessComponentData.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\ComponentSystemInjection.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\InjectAttribute.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\InjectComponentFromEntity.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\InjectComponentGroup.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\InjectionData.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\InjectionHook.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\World.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Injection\WorldDebuggingTools.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ArchetypeChunkArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\BufferArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\BufferFromEntity.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ComponentChunkIterator.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ComponentDataArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ComponentDataFromEntity.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ComponentGroup.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\ComponentGroupArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\DynamicBuffer.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\EntityArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\EntityGroupManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Iterators\SharedComponentDataArray.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\SceneViewWorldPositionAttribute.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ScriptBehaviourManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\ScriptBehaviourUpdateOrder.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\SerializeUtility.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\SharedComponentManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\SortingUtilities.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Stubs\Unity.Assertions\Assert.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Stubs\Unity\Debug.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Stubs\Unity\ProfilerMarker.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\BufferHeader.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\CalculateReaderWriterDependency.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\ComponentType.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\FastEquality.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\TypeManager.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\Types\VoidSystemComponent.cs" />
+    <Compile Include="Assets\ECSSrc\com.unity.entities@0.0.12-preview.15\Unity.Entities\UnsafeLinkedListNode.cs" />
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -338,9 +338,6 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.3/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.dll</HintPath>
     </Reference>
@@ -352,6 +349,9 @@
     </Reference>
     <Reference Include="Mono.Cecil.Rocks">
       <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.properties@0.2.11-preview/Editor/Serialization/External/Cecil/Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:/GitHub/UnityEcs/Assets/ECSSrc/com.unity.collections@0.0.9-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/SoftWare/Unity2018.2.4f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
